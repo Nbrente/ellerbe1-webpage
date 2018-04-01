@@ -1,21 +1,131 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <title>Welcome to placeholder.com</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <script src="assets/javascript/psychic.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Parallax Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link rel="stylesheet" href="custom.css">
 </head>
 
+
 <body>
-  <nav class="jumbotron">
-
+  <!-- START -->
+  <!-- NAV -->
+  <nav class="blue darken-1" role="navigation">
+    <!-- WRAPPER/CONTAINER -->
+    <div class="nav-wrapper container">
+      <!-- FULLNAV -->
+      <a href="#" id="logo-container" class="brand-logo white-text">
+        <i class="material-icons">local_pizza</i>
+        <!-- LOGO TEXT -->
+        Logo
+      </a>
+      <!-- SIDENAV ICON-->
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+        <i class="material-icons cust-sidenav">menu</i>
+      </a>
+      <!-- SIDENAV CONSTRUCT -->
+      <ul class="sidenav" id="mobile-demo">
+        <li>
+          <a href="#">Placeholder</a>
+        </li>
+        <li>
+          <a href="#">Placeholder</a>
+        </li>
+        <li>
+          <a href="#">Placeholder</a>
+        </li>
+        <li>
+          <a href="#">Placeholder</a>
+        </li>
+      </ul>
+      <!-- FULLNAV -->
+      <ul class="hide-on-med-and-down right">
+        <li>
+          <a class="white-text" href="#">Placeholder</a>
+        </li>
+        <li>
+          <a class="white-text" href="#">Placeholder</a>
+        </li>
+        <li>
+          <a class="white-text" href="#">Placeholder</a>
+        </li>
+        <li>
+          <a class="white-text" href="#">Placeholder</a>
+        </li>
+      </ul>
+    </div>
   </nav>
+  <!-- START OF MAIN -->
   <div class="container">
-  
+    <div class="row">
+      <div class="col cust-size s12 blue">S12</div>
+      <div class="col cust-size s12 m8 black white-text">S12 M8</div>
+      <div class="col cust-size s12 m4 white black-text">S12 M4</div>
+    </div>
   </div>
-</body>
+  <!-- START OF FOOTER -->
+  <footer class="page-footer blue ">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 center-align white-text">
+          Logo goes here:
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m6 ">
+          <ul>
+            <li>
+              <a class="white-text" href="#">Test Footer Link</a>
+            </li>
+            <li>
+              <a class="white-text" href="#">Test Footer Link</a>
+            </li>
+            <li>
+              <a class="white-text" href="#">Test Footer Link</a>
+            </li>
+            <li>
+              <a class="white-text" href="#">Test Footer Link</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col s12 m6 ">
+          <ul>
+            <li>
+              <a class="white-text" href="#">Test Footer Link</a>
+            </li>
+            <li>
+              <a class="white-text" href="#">Test Footer Link</a>
+            </li>
+            <li>
+              <a class="white-text" href="#">Test Footer Link</a>
+            </li>
+            <li>
+              <a class="white-text" href="#">Test Footer Link</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container left-align">Copyright 2017-2018</div>
+    </div>
+  </footer>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script src="js/init.js"></script>
+  <script>
+    var elem = document.querySelector('.sidenav');
+    var instance = M.Sidenav.init(elem, options);
+  </script>
 
+</body>
 
 </html>
