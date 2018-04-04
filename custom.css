@@ -1,7 +1,59 @@
+body {
+  background-color: skyblue;
+}
+#main {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1 25%;
+}
+#nav-style {
+  border-bottom: 3px solid;
+  border-color: white;
+}
+#img1 {
+  background-size: cover;
+  background-position: center, center;
+  background-image: url('background1.jpg');
+  height: 200px;
+  width: 100%;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#img2 {
+  background-size: cover;
+  background-position: center, center;
+  background-image: url('background2.jpg');
+  height: 200px;
+  width: 100%;
+}
+
+#card {
+  width: 100%;
+  margin: auto;
+  display: inline-block;
+  background-color: aliceblue;
+  border-left: 9px solid pink;
+  margin-bottom: 2rem;
+}
+
 .cust-sidenav {
   color: white;
 }
 
-.cust-size {
-  height: 300px;
+.cust-card {
+  margin: auto;
+  width: 80%;
+}
+
+.card-content {
+  padding: 2%;
+}
+
+.flex {
+  height: 200px;
+  flex: 1 1 50%;
 }
